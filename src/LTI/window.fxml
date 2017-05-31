@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LTI.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <TextField promptText="Számhalmaz helye" fx:id="input"/>
+      <TextField promptText="Megoldás helye" GridPane.columnIndex="1" fx:id="result"/>
+      <Button mnemonicParsing="false" text="Teszteld!" GridPane.columnIndex="2" fx:id="start" onAction="#go"/>
+      <Label text="Teszteld eredményed" GridPane.columnIndex="3" fx:id="correctness"/>
+   </children>
+</GridPane>
