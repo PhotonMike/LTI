@@ -1,9 +1,5 @@
 package LTI
 
-import java.io.IOException
-import java.util.*
-import kotlin.repeat
-
 class testIt {
     companion object{
         fun testIt(bemenet: String, result: String): String
