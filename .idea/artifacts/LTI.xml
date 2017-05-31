@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="LTI">
+    <output-path>$PROJECT_DIR$/out/artifacts/LTI</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="LTI.Main" />
+        <option name="description" value="" />
+        <option name="height" value="30" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="LTI" />
+        <option name="vendor" value="Mike" />
+        <option name="version" value="1" />
+        <option name="width" value="520" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="LTI.jar">
+        <element id="module-output" name="LTI" />
+      </element>
+    </root>
+  </artifact>
+</component>
