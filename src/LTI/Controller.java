@@ -10,6 +10,10 @@ public class Controller {
     public Label correctness;
     public void go()
     {
-        //test
+        try {
+            correctness.setText(testIt.Companion.testIt(input.getText(),result.getText()));
+        }catch (Exception e) {
+            correctness.setText("Rossz formátum");
+        }
     }
 }
